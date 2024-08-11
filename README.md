@@ -8,7 +8,7 @@ Welcome to our team’s LeetCode challenge repository! This project focuses on s
 2. **Squares of a Sorted Array**
 3. **Missing Number**
 4. **Add Two Numbers**
-5. **Merge Two Sorted Lists*
+5. **Merge Two Sorted Lists**
 
 
 
