@@ -12,13 +12,13 @@ public class Main {
 		ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
 		ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
 		ListNode result = solution.addTwoNumbers(l1, l2);
-		System.out.println("Test case 1: " + listNodeToString(result));
+		System.out.println("Test case 1: " + listNodeToLinkedList(result));
 
 		// Test case 2
 		ListNode l3 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
 		ListNode l4 = new ListNode(9, new ListNode(9, new ListNode(9,new ListNode(9))));
 		ListNode result2 = solution.addTwoNumbers(l3, l4);
-		System.out.println("Test case 2: " + listNodeToString(result2));
+		System.out.println("Test case 2: " + listNodeToLinkedList(result2));
 
 		
 		
@@ -30,7 +30,7 @@ public class Main {
 	}
 
 	// Private static helper method to print out the linkedlist objects instead of ListNode objects
-	private static LinkedList<Integer> listNodeToString(ListNode node) {
+	private static LinkedList<Integer> listNodeToLinkedList(ListNode node) {
 		LinkedList<Integer>  values = new LinkedList<>();
 		while (node != null) {
 			values.add(node.val);
